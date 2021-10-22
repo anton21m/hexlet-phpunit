@@ -6,8 +6,8 @@ use Tightenco\Collect\Support\Collection;
 
 class User
 {
-    private string $name;
-    private Collection $children;
+    private $name;
+    private $children;
 
     public function __construct(string $name, array $children = [])
     {
